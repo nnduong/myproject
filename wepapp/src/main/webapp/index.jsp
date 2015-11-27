@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World version Test Local 12</h2>
+<h2>Hello World Version new test integration Jenkins with ARA</h2>
 </body>
 </html>
