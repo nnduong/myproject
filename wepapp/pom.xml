@@ -7,6 +7,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <baseFolder>${basedir}</baseFolder>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -16,6 +19,7 @@
     </dependency>
   </dependencies>
   <build>
+      <directory>${baseFolder}/target</directory>
     <finalName>wepapp</finalName>
   </build>
 </project>
