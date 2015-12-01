@@ -7,9 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties>
-    <baseFolder>${basedir}</baseFolder>
-</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -18,17 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-  <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>2.3</version>
-            <configuration>
-             <warName>${name}</warName>
-             <outputDirectory>C:\webapps\</outputDirectory>
-            </configuration>
-        </plugin> 
-    <finalName>wepapp</finalName>
-  </build>
+<build>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>2.3</version>
+<configuration>
+<warName>$name</warName>
+<outputDirectory>C:\webapps\</outputDirectory>
+</configuration>
+</plugin>
+</plugins>
+</build>
  
-  </project>
+</project>
