@@ -19,9 +19,6 @@
     </dependency>
   </dependencies>
   <build>
- 
-    <finalName>wepapp</finalName>
-  </build>
   <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
@@ -31,5 +28,7 @@
              <outputDirectory>C:\webapps\</outputDirectory>
             </configuration>
         </plugin> 
-  
-</project>
+    <finalName>wepapp</finalName>
+  </build>
+ 
+  </project>
