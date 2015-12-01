@@ -19,7 +19,7 @@
     </dependency>
   </dependencies>
   <build>
-      <directory>${baseFolder}/target</directory>
+      <directory>${baseFolder}/target/test</directory>
     <finalName>wepapp</finalName>
   </build>
 </project>
