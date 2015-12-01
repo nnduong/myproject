@@ -19,7 +19,17 @@
     </dependency>
   </dependencies>
   <build>
-      <directory>${baseFolder}/target/test</directory>
+ 
     <finalName>wepapp</finalName>
   </build>
+  <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.3</version>
+            <configuration>
+             <warName>${name}</warName>
+             <outputDirectory>C:\webapps\</outputDirectory>
+            </configuration>
+        </plugin> 
+  
 </project>
