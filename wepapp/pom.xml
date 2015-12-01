@@ -22,8 +22,8 @@
 <artifactId>maven-war-plugin</artifactId>
 <version>2.3</version>
 <configuration>
-<warName>$name</warName>
-<outputDirectory>C:\webapps\</outputDirectory>
+<warName>Wepapp</warName>
+<outputDirectory>target/test</outputDirectory>
 </configuration>
 </plugin>
 </plugins>
